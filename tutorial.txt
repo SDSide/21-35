@@ -1,0 +1,16 @@
+-- How to add new blocks --
+
+Go to "block.cpp"
+
+Add your block like so:
+
+s_propertiesMap[BlockType::TESTBLOCK] = {BlockType::TESTBLOCK, "my test block", false};
+
+And do the same in "block.h", adding "TESTBLOCK" or whatever you called your block to the Block enum.
+
+Then in "chunk.cpp" find GetBlockUV() and add to the switch case. It should look like this:
+
+case BlockType::TESTBLOCK:
+      col = 4; // 4 can be any int btw
+      row = 9; // same for the row
+      break; // REMEMBER TO ADD THIS

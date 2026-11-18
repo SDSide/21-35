@@ -1,0 +1,53 @@
+# Display
+screen_width=1280
+screen_height=720
+target_fps=60
+vsync=true
+
+# Player
+mouse_sensitivity=0.075
+base_fov=90
+sprint_fov=110
+sneak_fov=90
+
+# Movement
+walk_acceleration=52.2
+sprint_acceleration=67.9
+sneak_acceleration=12.0
+
+walk_speed=4.317
+sprint_speed=5.612
+
+horizontal_drag=12.1
+air_resistance=6.0
+
+gravity=25.0
+jump_height=8.15
+
+# Player dimensions
+player_height=1.8
+player_eye_height=1.62
+player_sneak_height=1.5
+player_sneak_eye_height=1.32
+player_width=0.6
+
+# Camera
+fov_transition_speed=7.0
+
+# Hand sway
+hand_sway_horizontal=0.065
+hand_sway_vertical=0.060
+hand_sway_stride_length=3.2
+hand_sway_return_speed=8.0
+hand_follow_speed=40.0
+
+# World generation
+world_seed=53136
+sea_level=63
+bedrock_depth=1
+tree_cell_size=8
+tree_margin=4
+
+# Particles
+particle_ground_drag=12.0
+particle_stop_speed=0.05
